@@ -1,5 +1,5 @@
-#ifndef RADARSENSOR_H
-#define RADARSENSOR_H
+#ifndef ESP_RADARSENSOR_H
+#define ESP_RADARSENSOR_H
 
 #include <Arduino.h>
 
@@ -11,7 +11,7 @@
 
 typedef struct RadarTarget {
 	float distance;  // mm
-	float angle;     // radians
+	float angle;     // degrees
 	float speed;     // cm/s
 	int16_t x;       // mm
 	int16_t y;       // mm
