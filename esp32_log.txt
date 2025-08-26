@@ -1,0 +1,3777 @@
+[?1049h[!p[?3;4l[4l>[4l[?1h=[0m(B[1;32r[H[2J[H[2J41 y=-32066 v=0 dpx=360
+T1 RAW x=0p�����1ȕ9���RAW24: E4 80 BE 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32540 y=-32066 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 228
+  Y (mm): 702
+  istance (mm): 738.10
+  Angle (degrees): 72.01
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: E1 80 B 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32543 y=-32067 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: B 80 B 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32549 y=-32067 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 219
+  Y (mm): 701
+  istance (mm): 734.41
+  Angle (degrees): 72.65
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 5 80 BE 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32555 y=-32066 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 213
+  Y (mm): 702
+  istance (mm): 733.60
+  Angle (degrees): 73.12
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 0 80 BF 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32560 y=-32065 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 208
+  Y (mm): 703
+  istance (mm): 733.13
+  Angle (degrees): 73.52
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: CA 80 C0 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32566 y=-32064 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: C8 80 C1 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32568 y=-32063 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 200
+  Y (mm): 705
+  istance (mm): 732.82
+  Angle (degrees): 74.16
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: CA 80 C1 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32566 y=-32063 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 202
+  Y (mm): 705
+  istance (mm): 733.37
+  Angle (degrees): 74.01
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: CA 80 C3 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32566 y=-32061 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: CA 80 C7 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32566 y=-32057 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 202
+  Y (mm): 711
+  istance (mm): 739.14
+  Angle (degrees): 74.14
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: C 80 C8 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32563 y=-32056 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 205
+  Y (mm): 712
+  istance (mm): 740.92
+  Angle (degrees): 73.94
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 4 80 C9 82 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32556 y=-32055 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: A 80 C9 82 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32550 y=-32055 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 218
+  Y (mm): 713
+  istance (mm): 745.58
+  Angle (degrees): 73.00
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 7 80 C6 82 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32553 y=-32058 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 215
+  Y (mm): 710
+  istance (mm): 741.84
+  Angle (degrees): 73.15
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 4 80 C2 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32556 y=-32062 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 212
+  Y (mm): 706
+  istance (mm): 737.14
+  Angle (degrees): 73.29
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: CB 80 BE 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32565 y=-32066 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: AB 80 B9 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32597 y=-32071 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 171
+  Y (mm): 697
+  istance (mm): 717.67
+  Angle (degrees): 76.22
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 55 80 A6 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32683 y=-32090 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 85
+  Y (mm): 678
+  istance (mm): 683.31
+  Angle (degrees): 82.85
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 08 80 A4 82 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32760 y=-32092 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 5C 00 C3 82 10 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=92 y=-32061 v=-32752 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): -92
+  Y (mm): 707
+  istance (mm): 712.96
+  Angle (degrees): 97.41
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 71 00 2 82 20 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=113 y=-32046 v=-32736 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): -113
+  Y (mm): 722
+  istance (mm): 730.79
+  Angle (degrees): 98.90
+  Speed (cm/s): 32.00
+-------------------------
+RAW24: 4F 00 9 82 20 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=79 y=-32039 v=-32736 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 25 00 E1 82 27 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=37 y=-32031 v=-32729 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): -37
+  Y (mm): 737
+  istance (mm): 737.93
+  Angle (degrees): 92.87
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 0B 80 E8 82 30 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32757 y=-32024 v=-32720 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 11
+  Y (mm): 744
+  istance (mm): 744.08
+  Angle (degrees): 89.15
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 54 80 01 83 30 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32684 y=-31999 v=-32720 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 7 80 2A 83 30 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32643 y=-31958 v=-32720 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 125
+  Y (mm): 810
+  istance (mm): 819.59
+  Angle (degrees): 81.23
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 9F 80 51 83 38 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32609 y=-31919 v=-32712 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 159
+  Y (mm): 849
+  istance (mm): 863.76
+  Angle (degrees): 79.39
+  Speed (cm/s): 56.00
+-------------------------
+RAW24: C4 80 78 83 38 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32572 y=-31880 v=-32712 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 196
+  Y (mm): 888
+  istance (mm): 909.37
+  Angle (degrees): 77.55
+  Speed (cm/s): 56.00
+-------------------------
+RAW24: 9 80 A7 83 30 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32551 y=-31833 v=-32720 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: E7 80 9 83 30 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32537 y=-31783 v=-32720 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 231
+  Y (mm): 985
+  istance (mm): 1011.72
+  Angle (degrees): 76.80
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 4 80 10 84 27 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32556 y=-31728 v=-32729 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 212
+  Y (mm): 1040
+  istance (mm): 1061.39
+  Angle (degrees): 78.48
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 3 80 3E 84 20 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32557 y=-31682 v=-32736 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: E2 80 62 84 10 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32542 y=-31646 v=-32752 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 226
+  Y (mm): 1122
+  istance (mm): 1144.53
+  Angle (degrees): 78.61
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: E7 80 80 84 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32537 y=-31616 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 231
+  Y (mm): 1152
+  istance (mm): 1174.93
+  Angle (degrees): 78.66
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: EC 80 94 84 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32532 y=-31596 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: F 80 A5 84 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32545 y=-31579 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 223
+  Y (mm): 1189
+  istance (mm): 1209.73
+  Angle (degrees): 79.38
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: C 80 A8 84 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32548 y=-31576 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 220
+  Y (mm): 1192
+  istance (mm): 1212.13
+  Angle (degrees): 79.54
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: E6 80 A6 84 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32538 y=-31578 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 230
+  Y (mm): 1190
+  istance (mm): 1212.02
+  Angle (degrees): 79.06
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: F3 80 AA 84 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32525 y=-31574 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 04 81 A6 84 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32508 y=-31578 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 260
+  Y (mm): 1190
+  istance (mm): 1218.07
+  Angle (degrees): 77.68
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 06 81 A5 84 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32506 y=-31579 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 262
+  Y (mm): 1189
+  istance (mm): 1217.52
+  Angle (degrees): 77.57
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 07 81 A3 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32505 y=-31581 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 09 81 A0 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32503 y=-31584 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 265
+  Y (mm): 1184
+  istance (mm): 1213.29
+  Angle (degrees): 77.38
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 0C 81 9E 84 30 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32500 y=-31586 v=48 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 268
+  Y (mm): 1182
+  istance (mm): 1212.00
+  Angle (degrees): 77.23
+  Speed (cm/s): -48.00
+-------------------------
+RAW24: 0E 81 9C 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32498 y=-31588 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 10 81 99 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32496 y=-31591 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 272
+  Y (mm): 1177
+  istance (mm): 1208.02
+  Angle (degrees): 76.99
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 12 81 95 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32494 y=-31595 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 274
+  Y (mm): 1173
+  istance (mm): 1204.58
+  Angle (degrees): 76.85
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 15 81 90 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32491 y=-31600 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 277
+  Y (mm): 1168
+  istance (mm): 1200.40
+  Angle (degrees): 76.66
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 1A 81 8B 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32486 y=-31605 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 1A 81 87 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32486 y=-31609 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 282
+  Y (mm): 1159
+  istance (mm): 1192.81
+  Angle (degrees): 76.32
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 1 81 82 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32483 y=-31614 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 285
+  Y (mm): 1154
+  istance (mm): 1188.67
+  Angle (degrees): 76.13
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 1F 81 7 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32481 y=-31619 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 1F 81 79 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32481 y=-31623 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 287
+  Y (mm): 1145
+  istance (mm): 1180.42
+  Angle (degrees): 75.93
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 21 81 74 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32479 y=-31628 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 289
+  Y (mm): 1140
+  istance (mm): 1176.06
+  Angle (degrees): 75.77
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 23 81 6 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32477 y=-31635 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 26 81 69 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32474 y=-31639 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 294
+  Y (mm): 1129
+  istance (mm): 1166.65
+  Angle (degrees): 75.40
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 29 81 62 84 27 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32471 y=-31646 v=39 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 297
+  Y (mm): 1122
+  istance (mm): 1160.64
+  Angle (degrees): 75.17
+  Speed (cm/s): -39.00
+-------------------------
+RAW24: 2C 81 5A 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32468 y=-31654 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 300
+  Y (mm): 1114
+  istance (mm): 1153.69
+  Angle (degrees): 74.93
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 2E 81 4F 84 20 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32466 y=-31665 v=32 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 30 81 41 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32464 y=-31679 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 304
+  Y (mm): 1089
+  istance (mm): 1130.64
+  Angle (degrees): 74.40
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 30 81 34 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32464 y=-31692 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 304
+  Y (mm): 1076
+  istance (mm): 1118.12
+  Angle (degrees): 74.22
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 2E 81 29 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32466 y=-31703 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 2 81 1E 84 18 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32467 y=-31714 v=24 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 301
+  Y (mm): 1054
+  istance (mm): 1096.14
+  Angle (degrees): 74.06
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 2 81 12 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32467 y=-31726 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 301
+  Y (mm): 1042
+  istance (mm): 1084.60
+  Angle (degrees): 73.89
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 33 81 03 84 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32461 y=-31741 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 37 81 F7 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32457 y=-31753 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 311
+  Y (mm): 1015
+  istance (mm): 1061.58
+  Angle (degrees): 72.96
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 32 81 EC 83 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32462 y=-31764 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 306
+  Y (mm): 1004
+  istance (mm): 1049.60
+  Angle (degrees): 73.05
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 2E 81 E1 83 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32466 y=-31775 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 29 81 8 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32471 y=-31784 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 297
+  Y (mm): 984
+  istance (mm): 1027.84
+  Angle (degrees): 73.20
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 25 81 0 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32475 y=-31792 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 293
+  Y (mm): 976
+  istance (mm): 1019.03
+  Angle (degrees): 73.29
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 21 81 C5 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32479 y=-31803 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 289
+  Y (mm): 965
+  istance (mm): 1007.35
+  Angle (degrees): 73.33
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 21 81 BB 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32479 y=-31813 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 1F 81 AF 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32481 y=-31825 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 287
+  Y (mm): 943
+  istance (mm): 985.71
+  Angle (degrees): 73.07
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 19 81 A6 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32487 y=-31834 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 281
+  Y (mm): 934
+  istance (mm): 975.35
+  Angle (degrees): 73.26
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 16 81 A1 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32490 y=-31839 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 12 81 99 83 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32494 y=-31847 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 274
+  Y (mm): 921
+  istance (mm): 960.89
+  Angle (degrees): 73.43
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 0C 81 93 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32500 y=-31853 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 268
+  Y (mm): 915
+  istance (mm): 953.44
+  Angle (degrees): 73.67
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 09 81 8E 83 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32503 y=-31858 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 08 81 89 83 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32504 y=-31863 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 264
+  Y (mm): 905
+  istance (mm): 942.72
+  Angle (degrees): 73.74
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 09 81 87 83 08 80 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32503 y=-31865 v=-32760 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 265
+  Y (mm): 903
+  istance (mm): 941.08
+  Angle (degrees): 73.64
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 07 81 83 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32505 y=-31869 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 263
+  Y (mm): 899
+  istance (mm): 936.68
+  Angle (degrees): 73.69
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 00 81 81 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32512 y=-31871 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: FC 80 7E 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32516 y=-31874 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 252
+  Y (mm): 894
+  istance (mm): 928.84
+  Angle (degrees): 74.26
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: FC 80 79 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32516 y=-31879 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 252
+  Y (mm): 889
+  istance (mm): 924.03
+  Angle (degrees): 74.17
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: F 80 72 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32515 y=-31886 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: FE 80 6 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32514 y=-31891 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 254
+  Y (mm): 877
+  istance (mm): 913.04
+  Angle (degrees): 73.85
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: F 80 66 83 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32515 y=-31898 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 253
+  Y (mm): 870
+  istance (mm): 906.04
+  Angle (degrees): 73.79
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: FC 80 5 83 10 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32516 y=-31907 v=16 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: FC 80 57 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32516 y=-31913 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 252
+  Y (mm): 855
+  istance (mm): 891.36
+  Angle (degrees): 73.58
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: F9 80 51 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32519 y=-31919 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 249
+  Y (mm): 849
+  istance (mm): 884.76
+  Angle (degrees): 73.65
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: F5 80 4C 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32523 y=-31924 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 245
+  Y (mm): 844
+  istance (mm): 878.84
+  Angle (degrees): 73.81
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: F2 80 46 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32526 y=-31930 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: F2 80 41 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32526 y=-31935 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 242
+  Y (mm): 833
+  istance (mm): 867.44
+  Angle (degrees): 73.80
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: F4 80 3C 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32524 y=-31940 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 244
+  Y (mm): 828
+  istance (mm): 863.20
+  Angle (degrees): 73.58
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: FA 80 38 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32518 y=-31944 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 02 81 34 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32510 y=-31948 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 258
+  Y (mm): 820
+  istance (mm): 859.63
+  Angle (degrees): 72.53
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 0A 81 35 83 08 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32502 y=-31947 v=8 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 266
+  Y (mm): 821
+  istance (mm): 863.02
+  Angle (degrees): 72.05
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 0E 81 35 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32498 y=-31947 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 0C 81 37 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32500 y=-31945 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 268
+  Y (mm): 823
+  istance (mm): 865.54
+  Angle (degrees): 71.96
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 0B 81 34 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32501 y=-31948 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 267
+  Y (mm): 820
+  istance (mm): 862.37
+  Angle (degrees): 71.96
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 09 81 2B 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32503 y=-31957 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 04 81 22 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32508 y=-31966 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 260
+  Y (mm): 802
+  istance (mm): 843.09
+  Angle (degrees): 72.04
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: E 80 1F 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32531 y=-31969 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 237
+  Y (mm): 799
+  istance (mm): 833.41
+  Angle (degrees): 73.48
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 9E 80 1C 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32610 y=-31972 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 158
+  Y (mm): 796
+  istance (mm): 811.53
+  Angle (degrees): 78.77
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 84 80 1B 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32636 y=-31973 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 6C 80 1A 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32660 y=-31974 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 108
+  Y (mm): 794
+  istance (mm): 801.31
+  Angle (degrees): 82.25
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 54 80 1A 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32684 y=-31974 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 1
+[0]
+  X (mm): 84
+  Y (mm): 794
+  istance (mm): 798.43
+  Angle (degrees): 83.96
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 3 80 19 83 00 00 68 01 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00 00
+T0 RAW x=-32707 y=-31975 v=0 dpx=360
+T1 RAW x=0 y=0 v=0 dpx=0
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 27 80 18 83 00 00 68 01 55 82 70 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=-32729 y=-31976 v=0 dpx=360
+T1 RAW x=-32171 y=-32144 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): 39
+  Y (mm): 792
+  istance (mm): 792.96
+  Angle (degrees): 87.18
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 597
+  Y (mm): 624
+  istance (mm): 863.59
+  Angle (degrees): 46.27
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 12 80 17 83 00 00 68 01 3A 82 70 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=-32750 y=-31977 v=0 dpx=360
+T1 RAW x=-32198 y=-32144 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): 18
+  Y (mm): 791
+  istance (mm): 791.20
+  Angle (degrees): 88.70
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 570
+  Y (mm): 624
+  istance (mm): 845.15
+  Angle (degrees): 47.59
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 09 00 17 83 00 00 68 01 1F 82 6E 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=9 y=-31977 v=0 dpx=360
+T1 RAW x=-32225 y=-32146 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 26 00 18 83 00 00 68 01 F 81 70 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=38 y=-31976 v=0 dpx=360
+T1 RAW x=-32259 y=-32144 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -38
+  Y (mm): 792
+  istance (mm): 792.91
+  Angle (degrees): 92.75
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 509
+  Y (mm): 624
+  istance (mm): 805.27
+  Angle (degrees): 50.80
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 42 00 18 83 00 00 68 01 9 81 76 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=66 y=-31976 v=0 dpx=360
+T1 RAW x=-32295 y=-32138 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -66
+  Y (mm): 792
+  istance (mm): 794.75
+  Angle (degrees): 94.76
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 473
+  Y (mm): 630
+  istance (mm): 787.80
+  Angle (degrees): 53.10
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 5 00 19 83 00 00 68 01 C2 81 81 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=93 y=-31975 v=0 dpx=360
+T1 RAW x=-32318 y=-32127 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 77 00 19 83 00 00 68 01 B7 81 8C 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=119 y=-31975 v=0 dpx=360
+T1 RAW x=-32329 y=-32116 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -119
+  Y (mm): 793
+  istance (mm): 801.88
+  Angle (degrees): 98.53
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 439
+  Y (mm): 652
+  istance (mm): 786.02
+  Angle (degrees): 56.05
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 91 00 19 83 00 00 68 01 B2 81 92 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=145 y=-31975 v=0 dpx=360
+T1 RAW x=-32334 y=-32110 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: A9 00 1A 83 00 00 68 01 B1 81 93 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=169 y=-31974 v=0 dpx=360
+T1 RAW x=-32335 y=-32109 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -169
+  Y (mm): 794
+  istance (mm): 811.79
+  Angle (degrees): 102.02
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 433
+  Y (mm): 659
+  istance (mm): 788.52
+  Angle (degrees): 56.69
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: C0 00 1A 83 00 00 68 01 AC 81 92 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=192 y=-31974 v=0 dpx=360
+T1 RAW x=-32340 y=-32110 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -192
+  Y (mm): 794
+  istance (mm): 816.88
+  Angle (degrees): 103.59
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 428
+  Y (mm): 658
+  istance (mm): 784.95
+  Angle (degrees): 56.96
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 7 00 1B 83 00 00 68 01 A7 81 92 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=215 y=-31973 v=0 dpx=360
+T1 RAW x=-32345 y=-32110 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: E 00 1B 83 00 00 68 01 9F 81 90 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=237 y=-31973 v=0 dpx=360
+T1 RAW x=-32353 y=-32112 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -237
+  Y (mm): 795
+  istance (mm): 829.57
+  Angle (degrees): 106.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 415
+  Y (mm): 656
+  istance (mm): 776.25
+  Angle (degrees): 57.68
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 02 01 1B 83 00 00 68 01 96 81 90 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=258 y=-31973 v=0 dpx=360
+T1 RAW x=-32362 y=-32112 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -258
+  Y (mm): 795
+  istance (mm): 835.82
+  Angle (degrees): 107.98
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 406
+  Y (mm): 656
+  istance (mm): 771.47
+  Angle (degrees): 58.25
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 16 01 1C 83 00 00 68 01 8A 81 90 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=278 y=-31972 v=0 dpx=360
+T1 RAW x=-32374 y=-32112 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 2A 01 1C 83 00 00 68 01 73 81 92 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=298 y=-31972 v=0 dpx=360
+T1 RAW x=-32397 y=-32110 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -298
+  Y (mm): 796
+  istance (mm): 849.95
+  Angle (degrees): 110.52
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 371
+  Y (mm): 658
+  istance (mm): 755.38
+  Angle (degrees): 60.58
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 39 01 20 83 08 00 68 01 6B 81 93 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=313 y=-31968 v=8 dpx=360
+T1 RAW x=-32405 y=-32109 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -313
+  Y (mm): 800
+  istance (mm): 859.05
+  Angle (degrees): 111.37
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 363
+  Y (mm): 659
+  istance (mm): 752.36
+  Angle (degrees): 61.15
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 46 01 25 83 08 00 68 01 65 81 95 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=326 y=-31963 v=8 dpx=360
+T1 RAW x=-32411 y=-32107 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 52 01 29 83 08 00 68 01 5C 81 97 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=338 y=-31959 v=8 dpx=360
+T1 RAW x=-32420 y=-32105 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -338
+  Y (mm): 809
+  istance (mm): 876.77
+  Angle (degrees): 112.68
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 348
+  Y (mm): 663
+  istance (mm): 748.78
+  Angle (degrees): 62.31
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 5E 01 2E 83 08 00 68 01 53 81 98 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=350 y=-31954 v=8 dpx=360
+T1 RAW x=-32429 y=-32104 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 69 01 32 83 08 00 68 01 47 81 9A 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=361 y=-31950 v=8 dpx=360
+T1 RAW x=-32441 y=-32102 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -361
+  Y (mm): 818
+  istance (mm): 894.12
+  Angle (degrees): 113.81
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 327
+  Y (mm): 666
+  istance (mm): 741.95
+  Angle (degrees): 63.85
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 74 01 37 83 08 00 68 01 30 81 9 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=372 y=-31945 v=8 dpx=360
+T1 RAW x=-32464 y=-32099 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -372
+  Y (mm): 823
+  istance (mm): 903.17
+  Angle (degrees): 114.32
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 304
+  Y (mm): 669
+  istance (mm): 734.83
+  Angle (degrees): 65.56
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 7F 01 3B 83 08 00 68 01 28 81 9A 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=383 y=-31941 v=8 dpx=360
+T1 RAW x=-32472 y=-32102 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 89 01 3F 83 08 00 68 01 22 81 99 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=393 y=-31937 v=8 dpx=360
+T1 RAW x=-32478 y=-32103 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -393
+  Y (mm): 831
+  istance (mm): 919.24
+  Angle (degrees): 115.31
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 290
+  Y (mm): 665
+  istance (mm): 725.48
+  Angle (degrees): 66.44
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 93 01 42 83 08 00 68 01 1B 81 9A 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=403 y=-31934 v=8 dpx=360
+T1 RAW x=-32485 y=-32102 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -403
+  Y (mm): 834
+  istance (mm): 926.26
+  Angle (degrees): 115.79
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 283
+  Y (mm): 666
+  istance (mm): 723.63
+  Angle (degrees): 66.98
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 9C 01 40 83 00 00 68 01 15 81 9C 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=412 y=-31936 v=0 dpx=360
+T1 RAW x=-32491 y=-32100 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: A5 01 3B 83 00 00 68 01 0A 81 9 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=421 y=-31941 v=0 dpx=360
+T1 RAW x=-32502 y=-32099 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -421
+  Y (mm): 827
+  istance (mm): 927.99
+  Angle (degrees): 116.98
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 266
+  Y (mm): 669
+  istance (mm): 719.94
+  Angle (degrees): 68.32
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: A 01 36 83 00 00 68 01 FE 80 A0 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=429 y=-31946 v=0 dpx=360
+T1 RAW x=-32514 y=-32096 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -429
+  Y (mm): 822
+  istance (mm): 927.21
+  Angle (degrees): 117.56
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 254
+  Y (mm): 672
+  istance (mm): 718.40
+  Angle (degrees): 69.29
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: B5 01 32 83 00 00 68 01 F1 80 A2 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=437 y=-31950 v=0 dpx=360
+T1 RAW x=-32527 y=-32094 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: B 01 2 83 00 00 68 01 CF 80 AA 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=445 y=-31955 v=0 dpx=360
+T1 RAW x=-32561 y=-32086 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -445
+  Y (mm): 813
+  istance (mm): 926.82
+  Angle (degrees): 118.69
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 207
+  Y (mm): 682
+  istance (mm): 712.72
+  Angle (degrees): 73.12
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: C5 01 29 83 00 00 68 01 B1 80 B0 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=453 y=-31959 v=0 dpx=360
+T1 RAW x=-32591 y=-32080 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: CC 01 25 83 00 00 68 01 93 80 B7 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=460 y=-31963 v=0 dpx=360
+T1 RAW x=-32621 y=-32073 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -460
+  Y (mm): 805
+  istance (mm): 927.16
+  Angle (degrees): 119.74
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 147
+  Y (mm): 695
+  istance (mm): 710.38
+  Angle (degrees): 78.06
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 3 01 21 83 00 00 68 01 7F 80 B 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=467 y=-31967 v=0 dpx=360
+T1 RAW x=-32641 y=-32067 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -467
+  Y (mm): 801
+  istance (mm): 927.19
+  Angle (degrees): 120.24
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 127
+  Y (mm): 701
+  istance (mm): 712.41
+  Angle (degrees): 79.73
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: A 01 1E 83 00 00 68 01 75 80 C3 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=474 y=-31970 v=0 dpx=360
+T1 RAW x=-32651 y=-32061 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: E0 01 1A 83 00 00 68 01 6E 80 C5 82 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=480 y=-31974 v=0 dpx=360
+T1 RAW x=-32658 y=-32059 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -480
+  Y (mm): 794
+  istance (mm): 927.81
+  Angle (degrees): 121.15
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 110
+  Y (mm): 709
+  istance (mm): 717.48
+  Angle (degrees): 81.18
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: E7 01 17 83 00 00 68 01 6C 80 BF 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=487 y=-31977 v=0 dpx=360
+T1 RAW x=-32660 y=-32065 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -487
+  Y (mm): 791
+  istance (mm): 928.90
+  Angle (degrees): 121.62
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 108
+  Y (mm): 703
+  istance (mm): 711.25
+  Angle (degrees): 81.27
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: E 01 13 83 00 00 68 01 6B 80 B5 82 30 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=493 y=-31981 v=0 dpx=360
+T1 RAW x=-32661 y=-32075 v=48 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: F3 01 10 83 00 00 68 01 6C 80 A9 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=499 y=-31984 v=0 dpx=360
+T1 RAW x=-32660 y=-32087 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -499
+  Y (mm): 784
+  istance (mm): 929.33
+  Angle (degrees): 122.48
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 108
+  Y (mm): 681
+  istance (mm): 689.51
+  Angle (degrees): 80.99
+  Speed (cm/s): -56.00
+-------------------------
+RAW24: F8 01 0 83 00 00 68 01 6E 80 9 82 30 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=504 y=-31987 v=0 dpx=360
+T1 RAW x=-32658 y=-32099 v=48 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -504
+  Y (mm): 781
+  istance (mm): 929.50
+  Angle (degrees): 122.84
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 110
+  Y (mm): 669
+  istance (mm): 677.98
+  Angle (degrees): 80.66
+  Speed (cm/s): -48.00
+-------------------------
+RAW24: FE 01 0A 83 00 00 68 01 71 80 90 82 20 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=510 y=-31990 v=0 dpx=360
+T1 RAW x=-32655 y=-32112 v=32 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 72 80 83 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32654 y=-32125 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 114
+  Y (mm): 643
+  istance (mm): 653.03
+  Angle (degrees): 79.95
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 73 80 64 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32653 y=-32156 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 76 80 46 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32650 y=-32186 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 118
+  Y (mm): 582
+  istance (mm): 593.84
+  Angle (degrees): 78.54
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 77 80 0F 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32649 y=-32241 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 119
+  Y (mm): 527
+  istance (mm): 540.27
+  Angle (degrees): 77.28
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 73 80 E 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32653 y=-32290 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 6C 80 B9 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32660 y=-32327 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 108
+  Y (mm): 441
+  istance (mm): 454.03
+  Angle (degrees): 76.24
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 67 80 9F 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32665 y=-32353 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 103
+  Y (mm): 415
+  istance (mm): 427.59
+  Angle (degrees): 76.06
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 5F 80 87 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32673 y=-32377 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 5C 80 73 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32676 y=-32397 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 92
+  Y (mm): 371
+  istance (mm): 382.24
+  Angle (degrees): 76.07
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 5C 80 67 81 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32676 y=-32409 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 92
+  Y (mm): 359
+  istance (mm): 370.60
+  Angle (degrees): 75.63
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 5F 80 5F 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32673 y=-32417 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 61 80 5A 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32671 y=-32422 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 97
+  Y (mm): 346
+  istance (mm): 359.34
+  Angle (degrees): 74.34
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 61 80 5 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32671 y=-32419 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 78 80 55 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32648 y=-32427 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 120
+  Y (mm): 341
+  istance (mm): 361.50
+  Angle (degrees): 70.61
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 87 80 5C 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32633 y=-32420 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 135
+  Y (mm): 348
+  istance (mm): 373.27
+  Angle (degrees): 68.80
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 94 80 64 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32620 y=-32412 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 A1 80 6F 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32607 y=-32401 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 161
+  Y (mm): 367
+  istance (mm): 400.76
+  Angle (degrees): 66.31
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 A 80 85 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32595 y=-32379 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 173
+  Y (mm): 389
+  istance (mm): 425.73
+  Angle (degrees): 66.02
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 B5 80 A4 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32587 y=-32348 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 BB 80 C3 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32581 y=-32317 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 187
+  Y (mm): 451
+  istance (mm): 488.23
+  Angle (degrees): 67.48
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 C0 80 E5 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32576 y=-32283 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 192
+  Y (mm): 485
+  istance (mm): 521.62
+  Angle (degrees): 68.40
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 03 02 07 83 00 00 68 01 C4 80 0 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32572 y=-32243 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 03 02 07 83 00 00 68 01 CB 80 1B 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=515 y=-31993 v=0 dpx=360
+T1 RAW x=-32565 y=-32229 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -515
+  Y (mm): 775
+  istance (mm): 930.51
+  Angle (degrees): 123.60
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 203
+  Y (mm): 539
+  istance (mm): 575.96
+  Angle (degrees): 69.36
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: F9 01 0 83 08 80 68 01 4 80 2B 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=505 y=-31987 v=-32760 dpx=360
+T1 RAW x=-32556 y=-32213 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: EF 01 12 83 08 80 68 01 2 80 2F 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=495 y=-31982 v=-32760 dpx=360
+T1 RAW x=-32558 y=-32209 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -495
+  Y (mm): 786
+  istance (mm): 928.88
+  Angle (degrees): 122.20
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 210
+  Y (mm): 559
+  istance (mm): 597.14
+  Angle (degrees): 69.41
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: E6 01 18 83 08 80 68 01 0 80 33 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=486 y=-31976 v=-32760 dpx=360
+T1 RAW x=-32560 y=-32205 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -486
+  Y (mm): 792
+  istance (mm): 929.23
+  Angle (degrees): 121.53
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 208
+  Y (mm): 563
+  istance (mm): 600.19
+  Angle (degrees): 69.72
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: C 01 1E 83 08 80 68 01 C9 80 37 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=476 y=-31970 v=-32760 dpx=360
+T1 RAW x=-32567 y=-32201 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 3 01 23 83 08 80 68 01 C4 80 3C 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=467 y=-31965 v=-32760 dpx=360
+T1 RAW x=-32572 y=-32196 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -467
+  Y (mm): 803
+  istance (mm): 928.92
+  Angle (degrees): 120.18
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 196
+  Y (mm): 572
+  istance (mm): 604.65
+  Angle (degrees): 71.09
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: CB 01 28 83 08 80 68 01 C5 80 41 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=459 y=-31960 v=-32760 dpx=360
+T1 RAW x=-32571 y=-32191 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -459
+  Y (mm): 808
+  istance (mm): 929.27
+  Angle (degrees): 119.60
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 197
+  Y (mm): 577
+  istance (mm): 609.70
+  Angle (degrees): 71.15
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: C2 01 2 83 08 80 68 01 C7 80 45 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=450 y=-31955 v=-32760 dpx=360
+T1 RAW x=-32569 y=-32187 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: BA 01 32 83 08 80 68 01 C4 80 4A 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=442 y=-31950 v=-32760 dpx=360
+T1 RAW x=-32572 y=-32182 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -442
+  Y (mm): 818
+  istance (mm): 929.78
+  Angle (degrees): 118.38
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 196
+  Y (mm): 586
+  istance (mm): 617.91
+  Angle (degrees): 71.51
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: B2 01 36 83 08 80 68 01 BF 80 4F 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=434 y=-31946 v=-32760 dpx=360
+T1 RAW x=-32577 y=-32177 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -434
+  Y (mm): 822
+  istance (mm): 929.54
+  Angle (degrees): 117.83
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 191
+  Y (mm): 591
+  istance (mm): 621.10
+  Angle (degrees): 72.09
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: AB 01 3B 83 08 80 68 01 BB 80 54 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=427 y=-31941 v=-32760 dpx=360
+T1 RAW x=-32581 y=-32172 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: A3 01 3F 83 08 80 68 01 B3 80 5A 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=419 y=-31937 v=-32760 dpx=360
+T1 RAW x=-32589 y=-32166 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -419
+  Y (mm): 831
+  istance (mm): 930.66
+  Angle (degrees): 116.76
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 179
+  Y (mm): 602
+  istance (mm): 628.05
+  Angle (degrees): 73.44
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 9C 01 43 83 08 80 68 01 AB 80 5F 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=412 y=-31933 v=-32760 dpx=360
+T1 RAW x=-32597 y=-32161 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 96 01 47 83 08 80 68 01 A4 80 64 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=406 y=-31929 v=-32760 dpx=360
+T1 RAW x=-32604 y=-32156 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -406
+  Y (mm): 839
+  istance (mm): 932.07
+  Angle (degrees): 115.82
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 164
+  Y (mm): 612
+  istance (mm): 633.59
+  Angle (degrees): 75.00
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 8F 01 4B 83 08 80 68 01 9E 80 69 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=399 y=-31925 v=-32760 dpx=360
+T1 RAW x=-32610 y=-32151 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -399
+  Y (mm): 843
+  istance (mm): 932.66
+  Angle (degrees): 115.33
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 158
+  Y (mm): 617
+  istance (mm): 636.91
+  Angle (degrees): 75.64
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 89 01 4F 83 08 80 68 01 9B 80 6A 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=393 y=-31921 v=-32760 dpx=360
+T1 RAW x=-32613 y=-32150 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 9B 80 64 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32613 y=-32156 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 155
+  Y (mm): 612
+  istance (mm): 631.32
+  Angle (degrees): 75.79
+  Speed (cm/s): -56.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 9A 80 5C 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32614 y=-32164 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 154
+  Y (mm): 604
+  istance (mm): 623.32
+  Angle (degrees): 75.70
+  Speed (cm/s): -56.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 97 80 41 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32617 y=-32191 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 95 80 27 82 20 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32619 y=-32217 v=32 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 149
+  Y (mm): 551
+  istance (mm): 570.79
+  Angle (degrees): 74.87
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 92 80 10 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32622 y=-32240 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 146
+  Y (mm): 528
+  istance (mm): 547.81
+  Angle (degrees): 74.54
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 8B 80 E7 81 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32629 y=-32281 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 81 80 C4 81 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32639 y=-32316 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 129
+  Y (mm): 452
+  istance (mm): 470.05
+  Angle (degrees): 74.07
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 79 80 A7 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32647 y=-32345 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 76 80 91 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32650 y=-32367 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 118
+  Y (mm): 401
+  istance (mm): 418.00
+  Angle (degrees): 73.60
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 7 80 7C 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32643 y=-32388 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 125
+  Y (mm): 380
+  istance (mm): 400.03
+  Angle (degrees): 71.79
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 79 80 6B 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32647 y=-32405 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 79 80 5C 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32647 y=-32420 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 121
+  Y (mm): 348
+  istance (mm): 368.44
+  Angle (degrees): 70.83
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 7A 80 58 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32646 y=-32424 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 122
+  Y (mm): 344
+  istance (mm): 364.99
+  Angle (degrees): 70.47
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 78 80 53 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32648 y=-32429 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 75 80 48 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32651 y=-32440 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 117
+  Y (mm): 328
+  istance (mm): 348.24
+  Angle (degrees): 70.37
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 7B 80 40 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32645 y=-32448 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 123
+  Y (mm): 320
+  istance (mm): 342.83
+  Angle (degrees): 68.97
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 7C 80 3B 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32644 y=-32453 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 7B 80 38 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32645 y=-32456 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 123
+  Y (mm): 312
+  istance (mm): 335.37
+  Angle (degrees): 68.48
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 77 80 32 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32649 y=-32462 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 74 80 2F 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32652 y=-32465 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 116
+  Y (mm): 303
+  istance (mm): 324.45
+  Angle (degrees): 69.05
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 6F 80 2C 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32657 y=-32468 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 111
+  Y (mm): 300
+  istance (mm): 319.88
+  Angle (degrees): 69.70
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 6B 80 2C 81 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32661 y=-32468 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 69 80 2E 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32663 y=-32466 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 105
+  Y (mm): 302
+  istance (mm): 319.73
+  Angle (degrees): 70.83
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 6 80 32 81 20 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32659 y=-32462 v=-32736 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 109
+  Y (mm): 306
+  istance (mm): 324.83
+  Angle (degrees): 70.39
+  Speed (cm/s): 32.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 74 80 38 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32652 y=-32456 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 79 80 40 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32647 y=-32448 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 121
+  Y (mm): 320
+  istance (mm): 342.11
+  Angle (degrees): 69.29
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 84 80 49 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32636 y=-32439 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 132
+  Y (mm): 329
+  istance (mm): 354.49
+  Angle (degrees): 68.14
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 A1 80 4C 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32607 y=-32436 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 B1 80 5C 81 27 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32591 y=-32420 v=-32729 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 177
+  Y (mm): 348
+  istance (mm): 390.43
+  Angle (degrees): 63.04
+  Speed (cm/s): 39.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C5 80 7E 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32571 y=-32386 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 CF 80 9F 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32561 y=-32353 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 207
+  Y (mm): 415
+  istance (mm): 463.76
+  Angle (degrees): 63.49
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 4 80 BC 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32556 y=-32324 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 212
+  Y (mm): 444
+  istance (mm): 492.02
+  Angle (degrees): 64.48
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 6 80 3 81 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32554 y=-32301 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E0 80 EF 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32544 y=-32273 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 224
+  Y (mm): 495
+  istance (mm): 543.32
+  Angle (degrees): 65.65
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 8 80 0F 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32552 y=-32241 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 216
+  Y (mm): 527
+  istance (mm): 569.55
+  Angle (degrees): 67.71
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 A 80 21 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32550 y=-32223 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E 80 28 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32546 y=-32216 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 222
+  Y (mm): 552
+  istance (mm): 594.97
+  Angle (degrees): 68.09
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E1 80 2 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32543 y=-32211 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 225
+  Y (mm): 557
+  istance (mm): 600.73
+  Angle (degrees): 68.00
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E3 80 31 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32541 y=-32207 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E4 80 36 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32540 y=-32202 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 228
+  Y (mm): 566
+  istance (mm): 610.20
+  Angle (degrees): 68.06
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E4 80 39 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32540 y=-32199 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E3 80 3 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32541 y=-32195 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 227
+  Y (mm): 573
+  istance (mm): 616.33
+  Angle (degrees): 68.39
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 F 80 43 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32545 y=-32189 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 223
+  Y (mm): 579
+  istance (mm): 620.46
+  Angle (degrees): 68.94
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01  80 4 82 77 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32547 y=-32179 v=119 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 B 80 54 82 48 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32549 y=-32172 v=72 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 219
+  Y (mm): 596
+  istance (mm): 634.96
+  Angle (degrees): 69.82
+  Speed (cm/s): -72.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 8 80 4E 82 48 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32552 y=-32178 v=72 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 216
+  Y (mm): 590
+  istance (mm): 628.30
+  Angle (degrees): 69.89
+  Speed (cm/s): -72.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 4 80 45 82 27 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32556 y=-32187 v=39 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 CF 80 3B 82 18 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32561 y=-32197 v=24 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 207
+  Y (mm): 571
+  istance (mm): 607.36
+  Angle (degrees): 70.07
+  Speed (cm/s): -24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C6 80 1 82 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32570 y=-32227 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 198
+  Y (mm): 541
+  istance (mm): 576.09
+  Angle (degrees): 69.90
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 A2 80 EE 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32606 y=-32274 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 86 80 C5 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32634 y=-32315 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 134
+  Y (mm): 453
+  istance (mm): 472.40
+  Angle (degrees): 73.52
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 73 80 AA 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32653 y=-32342 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 68 80 90 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32664 y=-32368 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 104
+  Y (mm): 400
+  istance (mm): 413.30
+  Angle (degrees): 75.43
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 65 80 84 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32667 y=-32380 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 101
+  Y (mm): 388
+  istance (mm): 400.93
+  Angle (degrees): 75.41
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 63 80 70 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32669 y=-32400 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 64 80 65 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32668 y=-32411 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 100
+  Y (mm): 357
+  istance (mm): 370.74
+  Angle (degrees): 74.35
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 66 80 5 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32666 y=-32419 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 102
+  Y (mm): 349
+  istance (mm): 363.60
+  Angle (degrees): 73.71
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 6F 80 54 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32657 y=-32428 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 76 80 4C 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32650 y=-32436 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 118
+  Y (mm): 332
+  istance (mm): 352.35
+  Angle (degrees): 70.43
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 7C 80 4A 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32644 y=-32438 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 124
+  Y (mm): 330
+  istance (mm): 352.53
+  Angle (degrees): 69.41
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 80 80 4C 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32640 y=-32436 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 83 80 56 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32637 y=-32426 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 131
+  Y (mm): 342
+  istance (mm): 366.23
+  Angle (degrees): 69.04
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 86 80 5E 81 38 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32634 y=-32418 v=-32712 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 8E 80 6A 81 38 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32626 y=-32406 v=-32712 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 142
+  Y (mm): 362
+  istance (mm): 388.85
+  Angle (degrees): 68.58
+  Speed (cm/s): 56.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 98 80 8B 81 30 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32616 y=-32373 v=-32720 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 152
+  Y (mm): 395
+  istance (mm): 423.24
+  Angle (degrees): 68.95
+  Speed (cm/s): 48.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 AE 80 AF 81 20 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32594 y=-32337 v=-32736 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 C4 80 3 81 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32572 y=-32301 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 196
+  Y (mm): 467
+  istance (mm): 506.46
+  Angle (degrees): 67.23
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C 80 F5 81 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32563 y=-32267 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 205
+  Y (mm): 501
+  istance (mm): 541.32
+  Angle (degrees): 67.75
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 EC 80 12 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32532 y=-32238 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 FF 80 30 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32513 y=-32208 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 255
+  Y (mm): 560
+  istance (mm): 615.33
+  Angle (degrees): 65.52
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 06 81 46 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32506 y=-32186 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 262
+  Y (mm): 582
+  istance (mm): 638.25
+  Angle (degrees): 65.76
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 0F 81 66 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32497 y=-32154 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 13 81 81 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32493 y=-32127 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 275
+  Y (mm): 641
+  istance (mm): 697.50
+  Angle (degrees): 66.78
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 09 81 85 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32503 y=-32123 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 05 81 85 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32507 y=-32123 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 261
+  Y (mm): 645
+  istance (mm): 695.81
+  Angle (degrees): 67.97
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 00 81 83 82 27 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32512 y=-32125 v=39 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 256
+  Y (mm): 643
+  istance (mm): 692.09
+  Angle (degrees): 68.29
+  Speed (cm/s): -39.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 FC 80 7E 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32516 y=-32130 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 F9 80 78 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32519 y=-32136 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 249
+  Y (mm): 632
+  istance (mm): 679.28
+  Angle (degrees): 68.50
+  Speed (cm/s): -56.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 F6 80 70 82 38 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32522 y=-32144 v=56 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 246
+  Y (mm): 624
+  istance (mm): 670.74
+  Angle (degrees): 68.48
+  Speed (cm/s): -56.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 F3 80 66 82 30 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32525 y=-32154 v=48 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 EF 80 5 82 27 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32529 y=-32163 v=39 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 239
+  Y (mm): 605
+  istance (mm): 650.50
+  Angle (degrees): 68.44
+  Speed (cm/s): -39.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E 80 42 82 20 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32546 y=-32190 v=32 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 222
+  Y (mm): 578
+  istance (mm): 619.17
+  Angle (degrees): 68.99
+  Speed (cm/s): -32.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 CC 80 28 82 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32564 y=-32216 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 BC 80 11 82 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32580 y=-32239 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 188
+  Y (mm): 529
+  istance (mm): 561.41
+  Angle (degrees): 70.44
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 A 80 F 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32595 y=-32259 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 A1 80 E7 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32607 y=-32281 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 161
+  Y (mm): 487
+  istance (mm): 512.92
+  Angle (degrees): 71.71
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 97 80 3 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32617 y=-32301 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 151
+  Y (mm): 467
+  istance (mm): 490.81
+  Angle (degrees): 72.08
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 8C 80 B5 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32628 y=-32331 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 85 80 95 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32635 y=-32363 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 133
+  Y (mm): 405
+  istance (mm): 426.28
+  Angle (degrees): 71.82
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 89 80 83 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32631 y=-32381 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 137
+  Y (mm): 387
+  istance (mm): 410.53
+  Angle (degrees): 70.51
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 90 80 78 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32624 y=-32392 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 8B 80 72 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32629 y=-32398 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 139
+  Y (mm): 370
+  istance (mm): 395.25
+  Angle (degrees): 69.41
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 84 80 69 81 18 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32636 y=-32407 v=-32744 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 132
+  Y (mm): 361
+  istance (mm): 384.38
+  Angle (degrees): 69.92
+  Speed (cm/s): 24.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 82 80 64 81 38 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32638 y=-32412 v=-32712 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 7F 80 76 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32641 y=-32394 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 127
+  Y (mm): 374
+  istance (mm): 394.97
+  Angle (degrees): 71.24
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 83 80 9E 81 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32637 y=-32354 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 96 80 C9 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32618 y=-32311 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 150
+  Y (mm): 457
+  istance (mm): 480.99
+  Angle (degrees): 71.83
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 B0 80 F0 81 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32592 y=-32272 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 176
+  Y (mm): 496
+  istance (mm): 526.30
+  Angle (degrees): 70.46
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 BB 80 06 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32581 y=-32250 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 BF 80 10 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32577 y=-32240 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 191
+  Y (mm): 528
+  istance (mm): 561.48
+  Angle (degrees): 70.11
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C2 80 1B 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32574 y=-32229 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 194
+  Y (mm): 539
+  istance (mm): 572.85
+  Angle (degrees): 70.20
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C4 80 29 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32572 y=-32215 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 C7 80 39 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32569 y=-32199 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 199
+  Y (mm): 569
+  istance (mm): 602.80
+  Angle (degrees): 70.72
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C8 80 45 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32568 y=-32187 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 200
+  Y (mm): 581
+  istance (mm): 614.46
+  Angle (degrees): 71.00
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C8 80 49 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32568 y=-32183 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 C8 80 4C 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32568 y=-32180 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 200
+  Y (mm): 588
+  istance (mm): 621.08
+  Angle (degrees): 71.21
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 C9 80 4F 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32567 y=-32177 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 C 80 55 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32563 y=-32171 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 205
+  Y (mm): 597
+  istance (mm): 631.22
+  Angle (degrees): 71.05
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 CF 80 5A 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32561 y=-32166 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 207
+  Y (mm): 602
+  istance (mm): 636.59
+  Angle (degrees): 71.02
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 0 80 5F 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32560 y=-32161 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 4 80 64 82 10 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32556 y=-32156 v=-32752 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 212
+  Y (mm): 612
+  istance (mm): 647.68
+  Angle (degrees): 70.89
+  Speed (cm/s): 16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 8 80 69 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32552 y=-32151 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 216
+  Y (mm): 617
+  istance (mm): 653.72
+  Angle (degrees): 70.71
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 F 80 6 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32545 y=-32147 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E2 80 71 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32542 y=-32143 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 226
+  Y (mm): 625
+  istance (mm): 664.61
+  Angle (degrees): 70.12
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E3 80 73 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32541 y=-32141 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 227
+  Y (mm): 627
+  istance (mm): 666.83
+  Angle (degrees): 70.10
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E4 80 76 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32540 y=-32138 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E6 80 79 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32538 y=-32135 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 230
+  Y (mm): 633
+  istance (mm): 673.49
+  Angle (degrees): 70.03
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 E8 80 7B 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32536 y=-32133 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 EB 80 7E 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32533 y=-32130 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 235
+  Y (mm): 638
+  istance (mm): 679.90
+  Angle (degrees): 69.78
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 EA 80 80 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32534 y=-32128 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 234
+  Y (mm): 640
+  istance (mm): 681.44
+  Angle (degrees): 69.92
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 EA 80 82 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32534 y=-32126 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 83 01 52 83 08 80 68 01 E9 80 86 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32535 y=-32122 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 233
+  Y (mm): 646
+  istance (mm): 686.74
+  Angle (degrees): 70.17
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 EB 80 88 82 10 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32533 y=-32120 v=16 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -387
+  Y (mm): 850
+  istance (mm): 933.95
+  Angle (degrees): 114.48
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 235
+  Y (mm): 648
+  istance (mm): 689.30
+  Angle (degrees): 70.07
+  Speed (cm/s): -16.00
+-------------------------
+RAW24: 83 01 52 83 08 80 68 01 F1 80 8A 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=387 y=-31918 v=-32760 dpx=360
+T1 RAW x=-32527 y=-32118 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 74 01 4E 83 08 00 68 01 FA 80 8B 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=372 y=-31922 v=8 dpx=360
+T1 RAW x=-32518 y=-32117 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -372
+  Y (mm): 846
+  istance (mm): 924.18
+  Angle (degrees): 113.74
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 250
+  Y (mm): 651
+  istance (mm): 697.35
+  Angle (degrees): 68.99
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 60 01 49 83 10 00 68 01 02 81 8C 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=352 y=-31927 v=16 dpx=360
+T1 RAW x=-32510 y=-32116 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -352
+  Y (mm): 841
+  istance (mm): 911.69
+  Angle (degrees): 112.71
+  Speed (cm/s): -16.00
+[1]
+  X (mm): 258
+  Y (mm): 652
+  istance (mm): 701.19
+  Angle (degrees): 68.41
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 4 01 43 83 10 00 68 01 0A 81 8 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=333 y=-31933 v=16 dpx=360
+T1 RAW x=-32502 y=-32115 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 3A 01 3A 83 08 00 68 01 12 81 8E 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=314 y=-31942 v=8 dpx=360
+T1 RAW x=-32494 y=-32114 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -314
+  Y (mm): 826
+  istance (mm): 883.67
+  Angle (degrees): 110.81
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 274
+  Y (mm): 654
+  istance (mm): 709.08
+  Angle (degrees): 67.27
+  Speed (cm/s): -8.00
+-------------------------
+RAW24: 26 01 30 83 08 00 68 01 16 81 8F 82 08 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=294 y=-31952 v=8 dpx=360
+T1 RAW x=-32490 y=-32113 v=8 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: 13 01 26 83 08 00 68 01 17 81 90 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=275 y=-31962 v=8 dpx=360
+T1 RAW x=-32489 y=-32112 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -275
+  Y (mm): 806
+  istance (mm): 851.62
+  Angle (degrees): 108.84
+  Speed (cm/s): -8.00
+[1]
+  X (mm): 279
+  Y (mm): 656
+  istance (mm): 712.87
+  Angle (degrees): 66.96
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: 04 01 1F 83 00 00 68 01 15 81 92 82 00 00 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=260 y=-31969 v=0 dpx=360
+T1 RAW x=-32491 y=-32110 v=0 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -260
+  Y (mm): 799
+  istance (mm): 840.24
+  Angle (degrees): 108.03
+  Speed (cm/s): 0.00
+[1]
+  X (mm): 277
+  Y (mm): 658
+  istance (mm): 713.93
+  Angle (degrees): 67.17
+  Speed (cm/s): 0.00
+-------------------------
+RAW24: F8 00 19 83 00 00 68 01 12 81 93 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=248 y=-31975 v=0 dpx=360
+T1 RAW x=-32494 y=-32109 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: EB 00 13 83 08 80 68 01 0E 81 94 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=235 y=-31981 v=-32760 dpx=360
+T1 RAW x=-32498 y=-32108 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -235
+  Y (mm): 787
+  istance (mm): 821.34
+  Angle (degrees): 106.63
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 270
+  Y (mm): 660
+  istance (mm): 713.09
+  Angle (degrees): 67.75
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: F 00 0F 83 08 80 68 01 0 81 96 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=223 y=-31985 v=-32760 dpx=360
+T1 RAW x=-32499 y=-32106 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: 2
+[0]
+  X (mm): -223
+  Y (mm): 783
+  istance (mm): 814.14
+  Angle (degrees): 105.90
+  Speed (cm/s): 8.00
+[1]
+  X (mm): 269
+  Y (mm): 662
+  istance (mm): 714.57
+  Angle (degrees): 67.89
+  Speed (cm/s): 8.00
+-------------------------
+RAW24: 2 00 0A 83 08 80 68 01 0 81 98 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=210 y=-31990 v=-32760 dpx=360
+T1 RAW x=-32499 y=-32104 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+RAW24: C5 00 05 83 08 80 68 01 0B 81 9 82 08 80 68 01 00 00 00 00 00 00 00 00
+T0 RAW x=197 y=-31995 v=-32760 dpx=360
+T1 RAW x=-32501 y=-32099 v=-32760 dpx=360
+T2 RAW x=0 y=0 v=0 dpx=0
+Targets: [?1l>[32;1H
+[?1049l[detached]
