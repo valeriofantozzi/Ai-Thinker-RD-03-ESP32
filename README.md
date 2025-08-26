@@ -68,8 +68,14 @@ Baud rates used:
 
 The GUI reads the same human-readable lines (or JSON lines if you emit them) via Web Serial.
 
-How to use:
-1. Open `GUI/p5js-rd03/index.html` in Chrome (Web Serial required).
+How to use (serve over localhost; Web Serial requires a secure context):
+1. Start a static server, then open the page in Chrome:
+   - From project root:
+     - `python3 -m http.server 8000`
+     - Open `http://localhost:8000/GUI/p5js-rd03/index.html`
+   - Or from the GUI folder:
+     - `cd GUI/p5js-rd03 && python3 -m http.server 8000`
+     - Open `http://localhost:8000/index.html`
 2. Click "Connect" and choose your ESP32’s USB serial port.
 3. Set baud to `115200` to match the Serial Monitor output.
 4. Toggle options:
