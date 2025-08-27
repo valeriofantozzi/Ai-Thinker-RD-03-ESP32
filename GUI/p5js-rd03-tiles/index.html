@@ -1,0 +1,74 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <title>RD-03D Radar Viewer</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.9.2/p5.min.js"></script>
+  </head>
+  <body>
+    <div id="app">
+      <aside id="sidebar" class="panel">
+        <div class="panel-header">
+          <h2>Settings</h2>
+          <button id="toggle-sidebar" class="toggle">⟨</button>
+        </div>
+        <div class="panel-body">
+          <div class="control-row">
+            <button id="connect">Connect</button>
+            <label>Baud
+              <select id="baud">
+                <option value="256000" selected>256000</option>
+                <option value="115200">115200</option>
+                <option value="921600">921600</option>
+              </select>
+            </label>
+          </div>
+          <div class="control-row">
+            <label>Half FOV 180°
+              <input id="half" type="checkbox" checked>
+            </label>
+          </div>
+          <div class="control-row">
+            <label>Scale (mm/px)
+              <input id="scale" type="number" step="1" min="1" value="10">
+            </label>
+          </div>
+          <div class="control-row">
+            <label>Targets
+              <input id="targets" type="checkbox">
+            </label>
+            <label>Trail
+              <input id="trail" type="checkbox" checked>
+            </label>
+          </div>
+          <div class="control-row">
+            <label>Raw log
+              <input id="rawlog" type="checkbox">
+            </label>
+            <button id="clearlog">Clear Log</button>
+          </div>
+          <div class="status-row">
+            <span id="status">Disconnected</span>
+          </div>
+          <pre id="info"></pre>
+        </div>
+      </aside>
+      <main id="main">
+        <div id="canvas-container"></div>
+      </main>
+      <footer id="footer" class="panel">
+        <div class="panel-header">
+          <h2>Message log</h2>
+          <button id="toggle-footer" class="toggle">⌄</button>
+        </div>
+        <div class="panel-body">
+          <pre id="log"></pre>
+        </div>
+      </footer>
+    </div>
+    <script src="serial.js"></script>
+    <script src="sketch.js"></script>
+  </body>
+</html>

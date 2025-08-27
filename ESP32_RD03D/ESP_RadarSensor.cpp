@@ -1,5 +1,7 @@
 #include "ESP_RadarSensor.h"
 
+#define DEBUG_RAW_PARSING 0  // Set to 1 to enable RAW24 and per-target RAW debug output
+
 #ifdef ARDUINO_ARCH_ESP32
 
 RadarSensor::RadarSensor(uint8_t rxPin, uint8_t txPin)
@@ -142,6 +144,7 @@ bool RadarSensor::parseData(const uint8_t *buf, size_t len) {
 	for (uint8_t i = 0; i < 3; i++) targets[i] = {0,0,0,0,0,false};
 	targetCount = 0;
 
+#if DEBUG_RAW_PARSING
 	// Debug dump: raw 24-byte payload
 	Serial.print("RAW24:");
 	for (uint8_t i = 0; i < 24; i++) {
@@ -154,6 +157,7 @@ bool RadarSensor::parseData(const uint8_t *buf, size_t len) {
 #endif
 	}
 	Serial.println();
+#endif
 
 	// Each target block is 8 bytes: X(2), Y(2), Speed(2), Distance(2)
 	uint8_t slots = len / 8;
@@ -165,12 +169,14 @@ bool RadarSensor::parseData(const uint8_t *buf, size_t len) {
 		int16_t raw_speed = buf[base + 4] | (buf[base + 5] << 8);
 		uint16_t raw_pixel_dist = buf[base + 6] | (buf[base + 7] << 8);
 
+#if DEBUG_RAW_PARSING
 		// Debug dump: per-block raw values
 		Serial.print("T"); Serial.print(t);
 		Serial.print(" RAW x="); Serial.print(raw_x);
 		Serial.print(" y="); Serial.print(raw_y);
 		Serial.print(" v="); Serial.print(raw_speed);
 		Serial.print(" dpx="); Serial.println(raw_pixel_dist);
+#endif
 
 		// Apply zero-threshold filter: ignore slots with near-zero x/y
 		int16_t sx = parseSigned(raw_x);
