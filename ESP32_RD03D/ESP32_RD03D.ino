@@ -3,42 +3,23 @@
 RadarSensor radar(16,17); // RX, TX pins (ESP32: RX=16, TX=17)
 bool DEBUG_RAW_TARGETS = false;  // Can be toggled via serial command
 bool MULTI_TARGET = true;       // Can be toggled via serial command
+bool EMA_ENABLED = true;        // Can be toggled via serial command
 
 // ===== ZONE CONFIGURATION =====
-// Grid 4x4 (2m per tile), with A4 and D4 removed (14 tiles total)
+// Dynamic grid system with configurable tile size
 // Radar at origin (0,0), Y+ forward, X+ right
 // A=left, D=right, 1=near, 4=far
-const uint8_t NUM_ZONES = 14;
-const float TILE_SIZE = 2000.0; // mm
+const float TILE_SIZE = 1000.0; // mm (reduced from 2000 for better debugging)
+const uint8_t GRID_WIDTH = 4;   // Number of columns (A, B, C, D)
+const uint8_t GRID_HEIGHT = 4;  // Number of rows (1, 2, 3, 4)
+const float GRID_RANGE = GRID_WIDTH * TILE_SIZE; // Total range (4000mm = 4m)
 
-// Zone definitions: [zone_id][0=x_min, 1=x_max, 2=y_min, 3=y_max]
-const float ZONE_BOUNDS[NUM_ZONES][4] = {
-  // Row 1 (0-2m)
-  {-4000, -2000, 0, 2000},  // A1
-  {-2000,     0, 0, 2000},  // B1  
-  {    0,  2000, 0, 2000},  // C1
-  { 2000,  4000, 0, 2000},  // D1
-  // Row 2 (2-4m)
-  {-4000, -2000, 2000, 4000},  // A2
-  {-2000,     0, 2000, 4000},  // B2
-  {    0,  2000, 2000, 4000},  // C2
-  { 2000,  4000, 2000, 4000},  // D2
-  // Row 3 (4-6m)
-  {-4000, -2000, 4000, 6000},  // A3
-  {-2000,     0, 4000, 6000},  // B3
-  {    0,  2000, 4000, 6000},  // C3
-  { 2000,  4000, 4000, 6000},  // D3
-  // Row 4 (6-8m) - only B4 and C4
-  {-2000,     0, 6000, 8000},  // B4
-  {    0,  2000, 6000, 8000}   // C4
-};
+// Calculate number of zones (exclude A4 and D4 corners)
+const uint8_t NUM_ZONES = GRID_WIDTH * GRID_HEIGHT - 2; // 16 - 2 = 14
 
-const char* ZONE_NAMES[NUM_ZONES] = {
-  "A1", "B1", "C1", "D1",
-  "A2", "B2", "C2", "D2",
-  "A3", "B3", "C3", "D3",
-  "B4", "C4"
-};
+// Dynamic zone definitions - will be initialized in setup()
+float ZONE_BOUNDS[NUM_ZONES][4];  // [zone_id][0=x_min, 1=x_max, 2=y_min, 3=y_max]
+String ZONE_NAMES[NUM_ZONES];     // Zone names like "A1", "B2", etc.
 
 // ===== TRACKING STRUCTURES =====
 const uint8_t MAX_TRACKS = 3;
@@ -48,7 +29,7 @@ const float MOVEMENT_THRESHOLD = 300.0; // mm - threshold for adaptive EMA
 const float ASSOCIATION_GATE = 800.0; // mm
 const uint8_t LOST_FRAMES_THRESH = 10;
 const uint8_t CONFIRM_FRAMES = 0; // 0 = immediate zone change
-const float DEADBAND_SIZE = 100.0; // mm from tile border
+const float DEADBAND_SIZE = 50.0; // mm from tile border (reduced from 100)
 const unsigned long OCCUPANCY_OFF_DELAY = 300; // ms
 
 struct Track {
@@ -70,6 +51,63 @@ uint8_t next_track_id = 1;
 bool zone_occupied[NUM_ZONES];
 unsigned long zone_last_seen[NUM_ZONES];
 
+// ===== ZONE INITIALIZATION FUNCTIONS =====
+
+// Convert column index to letter (0=A, 1=B, 2=C, 3=D)
+char getColumnLetter(uint8_t col) {
+  return 'A' + col;
+}
+
+// Check if a zone should be excluded (A4 and D4 corners)
+bool shouldExcludeZone(uint8_t col, uint8_t row) {
+  return (col == 0 && row == 3) || (col == 3 && row == 3); // A4 or D4
+}
+
+// Initialize zone bounds and names dynamically
+void initializeZones() {
+  uint8_t zone_index = 0;
+  
+  Serial.println("Initializing dynamic zone system...");
+  Serial.print("TILE_SIZE: "); Serial.print(TILE_SIZE); Serial.println(" mm");
+  Serial.print("GRID: "); Serial.print(GRID_WIDTH); Serial.print("x"); Serial.println(GRID_HEIGHT);
+  Serial.print("TOTAL_RANGE: "); Serial.print(GRID_RANGE); Serial.println(" mm");
+  
+  for (uint8_t row = 0; row < GRID_HEIGHT; row++) {
+    for (uint8_t col = 0; col < GRID_WIDTH; col++) {
+      // Skip A4 and D4 corners
+      if (shouldExcludeZone(col, row)) {
+        continue;
+      }
+      
+      // Calculate zone bounds
+      float x_min = (col - 2) * TILE_SIZE;  // Center grid at origin
+      float x_max = x_min + TILE_SIZE;
+      float y_min = row * TILE_SIZE;
+      float y_max = y_min + TILE_SIZE;
+      
+      // Store bounds
+      ZONE_BOUNDS[zone_index][0] = x_min;
+      ZONE_BOUNDS[zone_index][1] = x_max;
+      ZONE_BOUNDS[zone_index][2] = y_min;
+      ZONE_BOUNDS[zone_index][3] = y_max;
+      
+      // Generate name (e.g., "A1", "B2", etc.)
+      ZONE_NAMES[zone_index] = String(getColumnLetter(col)) + String(row + 1);
+      
+      Serial.print("Zone "); Serial.print(zone_index); Serial.print(" (");
+      Serial.print(ZONE_NAMES[zone_index]); Serial.print("): X=[");
+      Serial.print(x_min); Serial.print(","); Serial.print(x_max);
+      Serial.print("] Y=["); Serial.print(y_min); Serial.print(",");
+      Serial.print(y_max); Serial.println("]");
+      
+      zone_index++;
+    }
+  }
+  
+  Serial.print("Total zones created: "); Serial.println(zone_index);
+  Serial.println("Zone initialization complete.\n");
+}
+
 void setup() {
   Serial.begin(115200);
 #if defined(ARDUINO_ARCH_ESP32)
@@ -78,6 +116,9 @@ void setup() {
   Serial.println("Build: non-ESP32 backend (SoftwareSerial path)");
 #endif
   radar.begin(256000);
+  
+  // Initialize dynamic zone system
+  initializeZones();
   
   // Initialize radar mode
   setRadarMode(MULTI_TARGET);
@@ -88,14 +129,14 @@ void setup() {
     tracks[i].current_zone = 0xFF;
   }
   
-  // Initialize zones
+  // Initialize zone occupancy
   for (uint8_t i = 0; i < NUM_ZONES; i++) {
     zone_occupied[i] = false;
     zone_last_seen[i] = 0;
   }
   
   Serial.println("Radar Zone Tracking Started");
-  Serial.println("14 zones configured (4x4 grid minus corners)");
+  Serial.print(NUM_ZONES); Serial.println(" zones configured dynamically");
   Serial.println("Type 'HELP' for available commands");
 }
 
@@ -163,13 +204,53 @@ uint8_t getZoneForPoint(float x, float y) {
 bool isInDeadband(float x, float y, uint8_t zone_id) {
   if (zone_id >= NUM_ZONES) return false;
   
-  float dist_to_left = x - ZONE_BOUNDS[zone_id][0];
-  float dist_to_right = ZONE_BOUNDS[zone_id][1] - x;
-  float dist_to_bottom = y - ZONE_BOUNDS[zone_id][2];
-  float dist_to_top = ZONE_BOUNDS[zone_id][3] - y;
+  float x_min = ZONE_BOUNDS[zone_id][0];
+  float x_max = ZONE_BOUNDS[zone_id][1];
+  float y_min = ZONE_BOUNDS[zone_id][2];
+  float y_max = ZONE_BOUNDS[zone_id][3];
   
-  return (dist_to_left < DEADBAND_SIZE || dist_to_right < DEADBAND_SIZE ||
-          dist_to_bottom < DEADBAND_SIZE || dist_to_top < DEADBAND_SIZE);
+  // Signed distances to each edge (positive = inside distance to edge, negative = outside beyond edge)
+  float dist_to_left = x - x_min;
+  float dist_to_right = x_max - x;
+  float dist_to_bottom = y - y_min;
+  float dist_to_top = y_max - y;
+  
+  bool is_inside = (dist_to_left >= 0 && dist_to_right >= 0 && dist_to_bottom >= 0 && dist_to_top >= 0);
+  bool in_deadband = false;
+  
+  if (is_inside) {
+    // If inside the zone, we are in deadband when close to any edge
+    float min_edge_dist = min(min(dist_to_left, dist_to_right), min(dist_to_bottom, dist_to_top));
+    in_deadband = (min_edge_dist <= DEADBAND_SIZE);
+  } else {
+    // If slightly outside, allow deadband only when the violation beyond the nearest edge is small
+    float outside_x = 0;
+    if (dist_to_left < 0) outside_x = -dist_to_left; else if (dist_to_right < 0) outside_x = -dist_to_right;
+    float outside_y = 0;
+    if (dist_to_bottom < 0) outside_y = -dist_to_bottom; else if (dist_to_top < 0) outside_y = -dist_to_top;
+    float outside_violation = max(outside_x, outside_y);
+    in_deadband = (outside_violation > 0 && outside_violation <= DEADBAND_SIZE);
+  }
+  
+  if (DEBUG_RAW_TARGETS && in_deadband) {
+    Serial.print("Point (");
+    Serial.print(x);
+    Serial.print(", ");
+    Serial.print(y);
+    Serial.print(") in deadband of ");
+    Serial.print(ZONE_NAMES[zone_id]);
+    Serial.print(is_inside ? " (inside)" : " (outside)");
+    Serial.print(" - distances: L=");
+    Serial.print(dist_to_left);
+    Serial.print(" R=");
+    Serial.print(dist_to_right);
+    Serial.print(" B=");
+    Serial.print(dist_to_bottom);
+    Serial.print(" T=");
+    Serial.println(dist_to_top);
+  }
+  
+  return in_deadband;
 }
 
 // Find closest track to a detection
@@ -203,6 +284,28 @@ void updateZoneOccupancy() {
     if (tracks[i].active && tracks[i].current_zone < NUM_ZONES) {
       zone_has_track[tracks[i].current_zone] = true;
       zone_last_seen[tracks[i].current_zone] = now;
+      
+      if (DEBUG_RAW_TARGETS) {
+        Serial.print("Track ");
+        Serial.print(tracks[i].id);
+        Serial.print(" is in zone ");
+        Serial.print(ZONE_NAMES[tracks[i].current_zone]);
+        Serial.print(" at (");
+        Serial.print(tracks[i].x);
+        Serial.print(", ");
+        Serial.print(tracks[i].y);
+        Serial.println(")");
+      }
+    } else if (tracks[i].active) {
+      if (DEBUG_RAW_TARGETS) {
+        Serial.print("Track ");
+        Serial.print(tracks[i].id);
+        Serial.print(" has NO ZONE at (");
+        Serial.print(tracks[i].x);
+        Serial.print(", ");
+        Serial.print(tracks[i].y);
+        Serial.println(")");
+      }
     }
   }
   
@@ -284,6 +387,11 @@ void processSerialCommand() {
       Serial.println(MULTI_TARGET ? "ON" : "OFF");
       setRadarMode(MULTI_TARGET);
     }
+    else if (command == "EMA") {
+      EMA_ENABLED = !EMA_ENABLED;
+      Serial.print("EMA smoothing: ");
+      Serial.println(EMA_ENABLED ? "ON" : "OFF");
+    }
     else if (command == "ZONES") {
       Serial.println("\n=== ZONE DEFINITIONS ===");
       for (uint8_t i = 0; i < NUM_ZONES; i++) {
@@ -320,6 +428,7 @@ void processSerialCommand() {
       Serial.println("\n=== COMMANDS ===");
       Serial.println("DEBUG - Toggle raw target debug output");
       Serial.println("MULTI - Toggle multi-target mode");
+      Serial.println("EMA   - Toggle EMA smoothing");
       Serial.println("ZONES - Show zone definitions and current tracks");
       Serial.println("HELP  - Show this help");
     }
@@ -372,24 +481,30 @@ void loop() {
         track.raw_y = t.y;
         track.speed = t.speed;
         
-        // Apply adaptive EMA smoothing
+        // Apply adaptive EMA smoothing (if enabled)
         float dx = t.x - track.x;
         float dy = t.y - track.y;
         float movement_distance = sqrt(dx*dx + dy*dy);
+        float alpha = 1.0;  // Default to full update (no smoothing)
         
-        // Adaptive alpha based on movement speed
-        float alpha;
-        if (movement_distance > MOVEMENT_THRESHOLD) {
-          // Fast movement - high alpha (more responsive)
-          alpha = EMA_ALPHA_MAX;
+        if (EMA_ENABLED) {
+          // Adaptive alpha based on movement speed
+          if (movement_distance > MOVEMENT_THRESHOLD) {
+            // Fast movement - high alpha (more responsive)
+            alpha = EMA_ALPHA_MAX;
+          } else {
+            // Slow movement - interpolate between min and max
+            float movement_ratio = movement_distance / MOVEMENT_THRESHOLD;
+            alpha = EMA_ALPHA_MIN + movement_ratio * (EMA_ALPHA_MAX - EMA_ALPHA_MIN);
+          }
+          
+          track.x = alpha * t.x + (1 - alpha) * track.x;
+          track.y = alpha * t.y + (1 - alpha) * track.y;
         } else {
-          // Slow movement - interpolate between min and max
-          float movement_ratio = movement_distance / MOVEMENT_THRESHOLD;
-          alpha = EMA_ALPHA_MIN + movement_ratio * (EMA_ALPHA_MAX - EMA_ALPHA_MIN);
+          // No EMA - use raw coordinates directly
+          track.x = t.x;
+          track.y = t.y;
         }
-        
-        track.x = alpha * t.x + (1 - alpha) * track.x;
-        track.y = alpha * t.y + (1 - alpha) * track.y;
         
         if (DEBUG_RAW_TARGETS) {
           Serial.print("Track ");
@@ -415,6 +530,23 @@ void loop() {
         // Use smoothed coordinates now that EMA is adaptive and responsive
         uint8_t new_zone = getZoneForPoint(track.x, track.y);
         
+        if (DEBUG_RAW_TARGETS) {
+          Serial.print("Track ");
+          Serial.print(track.id);
+          Serial.print(" current_zone: ");
+          if (track.current_zone < NUM_ZONES) {
+            Serial.print(ZONE_NAMES[track.current_zone]);
+          } else {
+            Serial.print("NONE");
+          }
+          Serial.print(", detected_zone: ");
+          if (new_zone < NUM_ZONES) {
+            Serial.println(ZONE_NAMES[new_zone]);
+          } else {
+            Serial.println("NONE");
+          }
+        }
+        
         if (DEBUG_RAW_TARGETS && new_zone != track.current_zone) {
           Serial.print("Track ");
           Serial.print(track.id);
@@ -436,6 +568,18 @@ void loop() {
           // Check if we're in deadband of current zone
           if (track.current_zone < NUM_ZONES && isInDeadband(track.x, track.y, track.current_zone)) {
             // Stay in current zone if in deadband
+            if (DEBUG_RAW_TARGETS) {
+              Serial.print("Track ");
+              Serial.print(track.id);
+              Serial.print(" in deadband of ");
+              Serial.print(ZONE_NAMES[track.current_zone]);
+              Serial.print(", staying in zone despite being detected in ");
+              if (new_zone < NUM_ZONES) {
+                Serial.println(ZONE_NAMES[new_zone]);
+              } else {
+                Serial.println("NONE");
+              }
+            }
             new_zone = track.current_zone;
           } else {
             // Immediate zone change (CONFIRM_FRAMES = 0) or confirmation logic

@@ -4,27 +4,41 @@ let targetsEnabled = false;
 let trails = []; // history of points
 const TRAIL_MS = 30000; // trail length in ms
 
-// Zone configuration - matching ESP32 code
-const ZONE_BOUNDS = [
-  // Row 1 (0-2m)
-  {id: 'A1', x1: -4000, x2: -2000, y1: 0, y2: 2000},
-  {id: 'B1', x1: -2000, x2:     0, y1: 0, y2: 2000},
-  {id: 'C1', x1:     0, x2:  2000, y1: 0, y2: 2000},
-  {id: 'D1', x1:  2000, x2:  4000, y1: 0, y2: 2000},
-  // Row 2 (2-4m)
-  {id: 'A2', x1: -4000, x2: -2000, y1: 2000, y2: 4000},
-  {id: 'B2', x1: -2000, x2:     0, y1: 2000, y2: 4000},
-  {id: 'C2', x1:     0, x2:  2000, y1: 2000, y2: 4000},
-  {id: 'D2', x1:  2000, x2:  4000, y1: 2000, y2: 4000},
-  // Row 3 (4-6m)
-  {id: 'A3', x1: -4000, x2: -2000, y1: 4000, y2: 6000},
-  {id: 'B3', x1: -2000, x2:     0, y1: 4000, y2: 6000},
-  {id: 'C3', x1:     0, x2:  2000, y1: 4000, y2: 6000},
-  {id: 'D3', x1:  2000, x2:  4000, y1: 4000, y2: 6000},
-  // Row 4 (6-8m) - only B4 and C4
-  {id: 'B4', x1: -2000, x2:     0, y1: 6000, y2: 8000},
-  {id: 'C4', x1:     0, x2:  2000, y1: 6000, y2: 8000}
-];
+// Zone configuration - dynamic system matching ESP32 code
+const TILE_SIZE = 1000.0;  // mm (reduced from 2000 for better debugging)
+const GRID_WIDTH = 4;      // Number of columns (A, B, C, D)  
+const GRID_HEIGHT = 4;     // Number of rows (1, 2, 3, 4)
+
+// Generate zone bounds dynamically
+function generateZoneBounds() {
+  const zones = [];
+  
+  for (let row = 0; row < GRID_HEIGHT; row++) {
+    for (let col = 0; col < GRID_WIDTH; col++) {
+      // Skip A4 and D4 corners
+      if ((col === 0 && row === 3) || (col === 3 && row === 3)) {
+        continue;
+      }
+      
+      // Calculate zone bounds
+      const x1 = (col - 2) * TILE_SIZE;  // Center grid at origin
+      const x2 = x1 + TILE_SIZE;
+      const y1 = row * TILE_SIZE;
+      const y2 = y1 + TILE_SIZE;
+      
+      // Generate name (e.g., "A1", "B2", etc.)
+      const id = String.fromCharCode(65 + col) + (row + 1);
+      
+      zones.push({id, x1, x2, y1, y2});
+    }
+  }
+  
+  return zones;
+}
+
+// Initialize dynamic zone bounds
+const ZONE_BOUNDS = generateZoneBounds();
+console.log('Generated', ZONE_BOUNDS.length, 'zones with TILE_SIZE:', TILE_SIZE);
 
 function resizeToContainer(){
   const el = document.getElementById("canvas-container");
