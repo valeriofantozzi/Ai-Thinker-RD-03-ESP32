@@ -12,6 +12,34 @@ let serial = {
   zones: {}, // zone occupancy states {A1: true, B2: false, ...}
 };
 
+// Reflect device setting messages to UI checkboxes when possible
+function parseDeviceSettings(line){
+  // Debug raw targets: ON/OFF
+  let m = line.match(/^Debug raw targets:\s*(ON|OFF)$/i);
+  if (m) {
+    const el = document.getElementById('debug');
+    if (el) el.checked = (m[1].toUpperCase() === 'ON');
+    return;
+  }
+  // Multi-target mode: ON/OFF or mode enabled lines
+  m = line.match(/^(Multi-target mode:\s*(ON|OFF)|Multi-target mode enabled|Single-target mode enabled)$/i);
+  if (m) {
+    const el = document.getElementById('multi');
+    if (el) {
+      const on = /Multi-target mode enabled/i.test(line) || /:\s*ON$/i.test(line);
+      el.checked = on;
+    }
+    return;
+  }
+  // EMA smoothing: ON/OFF
+  m = line.match(/^EMA smoothing:\s*(ON|OFF)$/i);
+  if (m) {
+    const el = document.getElementById('ema');
+    if (el) el.checked = (m[1].toUpperCase() === 'ON');
+    return;
+  }
+}
+
 function renderTargetLog() {
   const raw = document.getElementById('rawlog');
   const log = document.getElementById('log');
@@ -189,6 +217,8 @@ async function readLoop() {
         const l = line.trim();
         if (!l) continue;
         appendLog(l);
+        // Parse device settings toggles and reflect UI state
+        parseDeviceSettings(l);
         
         // First try parsing zone status
         const zoneStatus = parseZoneStatus(l);
@@ -352,19 +382,35 @@ document.addEventListener('DOMContentLoaded', () => {
   const clearBtn = document.getElementById('clearlog');
   if (clearBtn && logEl) clearBtn.onclick = () => { logEl.textContent = ''; };
   
-  // Targets toggle button
-  const targetsBtn = document.getElementById('targets');
-  if (targetsBtn) {
-    targetsBtn.addEventListener('change', async (e) => {
-      const enabled = e.target.checked;
-      console.log('[WS] Targets toggle clicked, enabled:', enabled);
-      console.log('[WS] Serial connection state:', serial.connected);
-      console.log('[WS] Serial port:', serial.port);
-      
-      const result = await sendSerialCommand('DEBUG');
-      console.log('[WS] Send command result:', result);
+  // DEBUG toggle (already implemented on device)
+  const debugChk = document.getElementById('debug');
+  if (debugChk) {
+    debugChk.addEventListener('change', async () => {
+      await sendSerialCommand('DEBUG');
     });
-  } else {
-    console.warn('[WS] Targets button not found!');
   }
+
+  // MULTI toggle
+  const multiChk = document.getElementById('multi');
+  if (multiChk) {
+    multiChk.addEventListener('change', async () => {
+      await sendSerialCommand('MULTI');
+    });
+  }
+
+  // EMA toggle
+  const emaChk = document.getElementById('ema');
+  if (emaChk) {
+    emaChk.addEventListener('change', async () => {
+      await sendSerialCommand('EMA');
+    });
+  }
+
+  // ZONES button
+  const zonesBtn = document.getElementById('zones-btn');
+  if (zonesBtn) zonesBtn.addEventListener('click', async () => { await sendSerialCommand('ZONES'); });
+
+  // HELP button
+  const helpBtn = document.getElementById('help-btn');
+  if (helpBtn) helpBtn.addEventListener('click', async () => { await sendSerialCommand('HELP'); });
 });

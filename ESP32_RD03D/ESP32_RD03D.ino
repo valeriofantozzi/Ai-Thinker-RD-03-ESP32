@@ -31,6 +31,8 @@ const uint8_t LOST_FRAMES_THRESH = 10;
 const uint8_t CONFIRM_FRAMES = 0; // 0 = immediate zone change
 const float DEADBAND_SIZE = 50.0; // mm from tile border (reduced from 100)
 const unsigned long OCCUPANCY_OFF_DELAY = 300; // ms
+// Target radial footprint 
+const float TARGET_RADIUS_MM = 125.0; // mm
 
 struct Track {
   float x, y;           // smoothed position
@@ -42,6 +44,8 @@ struct Track {
   uint8_t current_zone; // 0xFF = no zone
   uint8_t zone_confirm_count;
   uint8_t proposed_zone;
+  // Bitmask of overlapped zones via radial footprint (NUM_ZONES<=16 -> uint16_t ok)
+  uint16_t zone_mask;
 };
 
 Track tracks[MAX_TRACKS];
@@ -108,6 +112,42 @@ void initializeZones() {
   Serial.println("Zone initialization complete.\n");
 }
 
+// ===== GEOMETRY HELPERS =====
+
+// Clamp value within [lo, hi]
+static inline float clampf(float value, float lo, float hi) {
+  if (value < lo) return lo;
+  if (value > hi) return hi;
+  return value;
+}
+
+// Check if a circle centered at (x, y) with radius intersects the rectangular zone
+bool circleIntersectsZone(float x, float y, float radius, uint8_t zone_id) {
+  if (zone_id >= NUM_ZONES) return false;
+  float x_min = ZONE_BOUNDS[zone_id][0];
+  float x_max = ZONE_BOUNDS[zone_id][1];
+  float y_min = ZONE_BOUNDS[zone_id][2];
+  float y_max = ZONE_BOUNDS[zone_id][3];
+
+  float closest_x = clampf(x, x_min, x_max);
+  float closest_y = clampf(y, y_min, y_max);
+  float dx = x - closest_x;
+  float dy = y - closest_y;
+  float dist_sq = dx*dx + dy*dy;
+  return dist_sq <= (radius * radius);
+}
+
+// Compute a bitmask of all zones overlapped by the target's radial footprint
+uint16_t computeZoneMaskForCircle(float x, float y, float radius) {
+  uint16_t mask = 0;
+  for (uint8_t i = 0; i < NUM_ZONES; i++) {
+    if (circleIntersectsZone(x, y, radius, i)) {
+      mask |= (uint16_t(1) << i);
+    }
+  }
+  return mask;
+}
+
 void setup() {
   Serial.begin(115200);
 #if defined(ARDUINO_ARCH_ESP32)
@@ -127,6 +167,7 @@ void setup() {
   for (uint8_t i = 0; i < MAX_TRACKS; i++) {
     tracks[i].active = false;
     tracks[i].current_zone = 0xFF;
+    tracks[i].zone_mask = 0;
   }
   
   // Initialize zone occupancy
@@ -281,26 +322,40 @@ void updateZoneOccupancy() {
   bool zone_has_track[NUM_ZONES] = {false};
   
   for (uint8_t i = 0; i < MAX_TRACKS; i++) {
-    if (tracks[i].active && tracks[i].current_zone < NUM_ZONES) {
-      zone_has_track[tracks[i].current_zone] = true;
-      zone_last_seen[tracks[i].current_zone] = now;
-      
+    if (!tracks[i].active) continue;
+
+    // Mark all zones overlapped by this track's radial footprint
+    if (tracks[i].zone_mask != 0) {
+      for (uint8_t z = 0; z < NUM_ZONES; z++) {
+        if (tracks[i].zone_mask & (uint16_t(1) << z)) {
+          zone_has_track[z] = true;
+          zone_last_seen[z] = now;
+        }
+      }
+
       if (DEBUG_RAW_TARGETS) {
         Serial.print("Track ");
         Serial.print(tracks[i].id);
-        Serial.print(" is in zone ");
-        Serial.print(ZONE_NAMES[tracks[i].current_zone]);
+        Serial.print(" overlaps zones: ");
+        bool first = true;
+        for (uint8_t z = 0; z < NUM_ZONES; z++) {
+          if (tracks[i].zone_mask & (uint16_t(1) << z)) {
+            if (!first) Serial.print(", ");
+            Serial.print(ZONE_NAMES[z]);
+            first = false;
+          }
+        }
         Serial.print(" at (");
         Serial.print(tracks[i].x);
         Serial.print(", ");
         Serial.print(tracks[i].y);
         Serial.println(")");
       }
-    } else if (tracks[i].active) {
+    } else {
       if (DEBUG_RAW_TARGETS) {
         Serial.print("Track ");
         Serial.print(tracks[i].id);
-        Serial.print(" has NO ZONE at (");
+        Serial.print(" overlaps NO ZONE at (");
         Serial.print(tracks[i].x);
         Serial.print(", ");
         Serial.print(tracks[i].y);
@@ -617,6 +672,9 @@ void loop() {
             }
           }
         }
+        
+        // Compute overlapped zones via radial footprint for occupancy
+        track.zone_mask = computeZoneMaskForCircle(track.x, track.y, TARGET_RADIUS_MM);
       } else {
         // Create new track - find free slot
         for (uint8_t i = 0; i < MAX_TRACKS; i++) {
@@ -630,6 +688,7 @@ void loop() {
             tracks[i].current_zone = getZoneForPoint(t.x, t.y);
             tracks[i].zone_confirm_count = 0;
             tracks[i].proposed_zone = tracks[i].current_zone;
+            tracks[i].zone_mask = computeZoneMaskForCircle(tracks[i].x, tracks[i].y, TARGET_RADIUS_MM);
             
             Serial.print("New track ");
             Serial.print(tracks[i].id);
@@ -650,6 +709,7 @@ void loop() {
         Serial.print("Lost track ");
         Serial.println(tracks[i].id);
         tracks[i].active = false;
+        tracks[i].zone_mask = 0;
       }
     }
     
@@ -671,6 +731,7 @@ void loop() {
         tracks[i].frames_lost++;
         if (tracks[i].frames_lost > LOST_FRAMES_THRESH) {
           tracks[i].active = false;
+          tracks[i].zone_mask = 0;
         }
       }
     }
